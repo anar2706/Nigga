@@ -1,0 +1,17 @@
+{% extends 'layout.html'%}
+
+
+{% block body %}
+
+{% for tweet in tweet_list %}
+
+
+
+
+<h2>{{ tweet.content }}</h2>
+
+
+<hr>
+{% endfor %}
+
+{% endblock %}
